@@ -5,7 +5,6 @@
 #include <iostream>
 #include <limits>
 #include <memory>
-#include "interval.h"
 
 // C++ Std Usings
 
@@ -26,6 +25,7 @@ inline double degrees_to_radians(double degrees)
 
 // Common Headers
 
+#include "interval.h"
 #include "color.h"
 #include "ray.h"
 #include "vec3.h"
